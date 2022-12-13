@@ -1,6 +1,6 @@
 # Marina Vsevolodova
 ***
-#### Contact information
+#### Contact information  
 Phone: +7965888110
 E-mail: [mkarabass@gmail.com](mkarabass@gmail.com)  
 GitHub: [markiz-karabas](https://github.com/markiz-karabas)  
@@ -15,7 +15,7 @@ I study at RS School to be a front-end developer. This is the beginning of my jo
 * HTML5, CSS3
 * GIT
 * VS-Code
-* Java Script Basic  
+* Java Script Basic
 ***
 
 #### Code Example
@@ -32,7 +32,7 @@ University: Academy of Public Administration
   
 Courses:  
 * HTML Academy
-* RS School  
+* RS School
 ***
 
 #### Languagesg
