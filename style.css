@@ -1,0 +1,16 @@
+body {
+    background-color: rgba(35, 34, 34, 0.946);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
+h4 {
+    font-size: medium;
+    height: 20px;
+}
+.contacts {
+    background-color: rgba(57, 56, 56, 0.803);
+    padding: 5px;
+}
+a {
+    color: antiquewhite;
+}
