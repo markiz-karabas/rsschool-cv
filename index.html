@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RSSchool-CV</title>
     <link rel="stylesheet" href="style.css">
   </head>
@@ -15,7 +15,8 @@
           src="assets/img/FXxlWcSbQew.jpg"
           alt="my photo"
           width="320"
-          height="320">
+          height="320"
+        >
         <section class="contacts">
           <h2 id="contact-h">Contact information</h2>
           <p>Phone: +7(965)888-11-00</p>
@@ -55,22 +56,21 @@
           <nav>
             <ul>
               <li>
-                <button><a href="#about-h">About me</a></button>
+                <span><a href="#about-h">About me</a></span>
               </li>
               <li>
-                <button><a href="#contact-h">Contacts</a></button>
+                <span><a href="#contact-h">Contacts</a></span>
               </li>
               <li>
-                <button><a href="#education-h">Education</a></button>
+                <span><a href="#education-h">Education</a></span></li>
+              <li>
+                <span><a href="#skills-h">Skills</a></span>
               </li>
               <li>
-                <button><a href="#skills-h">Skills</a></button>
+                <span><a href="#code-h">Code</a></span>
               </li>
               <li>
-                <button><a href="#code-h">Code</a></button>
-              </li>
-              <li>
-                <button><a href="#english-h">English</a></button>
+                <span><a href="#english-h">English</a></span>
               </li>
             </ul>
           </nav>
@@ -88,17 +88,44 @@
           <p>Courses:</p>
           <ul>
             <li>HTML Academy</li>
+            <li>CodeCademy</li>
             <li>RS-School</li>
           </ul>
         </section>
         <section class="code-h">
           <h2 id="code-h">Code Example</h2>
-          <code>
-            function sum(a, b) {return a + b;} let result = sum(1, 2); alert(
-            result );
-          </code>
+          <pre>
+            function sum(a, b) {
+              return a + b;
+            } 
+            let result = sum(1, 2); 
+            alert(result );
+          </pre>
         </section>
       </main>
     </div>
+    <footer>
+      <div class="footer">
+        <div class="logo-git">
+          <a href="https://github.com/markiz-karabas" target="_blank"
+            ><img
+              src="/rsschool-cv/assets/svg/github.svg"
+              alt="logo-github"
+              width="50"
+          ></a>
+        </div>
+        <div class="logo-rs">
+          <a href="https://rs.school/" target="_blank"
+            ><img
+              src="/rsschool-cv/assets/svg/rs_school_js.svg"
+              alt="logo-rs"
+              width="100"
+          ></a>
+        </div>
+        <div class="year">
+          <p>2022</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
