@@ -3,54 +3,102 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RSSchool-CV</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Markiz-Karabas</h1>
-    <img src="FXxlWcSbQew.jpg" alt="my photo" height="150" width="150">
-    <hr>
-    <h4>Contact information</h4>
-    <div class="contacts">
-      <p>Phone: +7(965)888-11-00</p>
-      <p>
-        E-mail: <a href="mailito:mkarabass@gmail.com">mkarabass@gmail.com</a>
-      </p>
-      <p>
-        GitHub: <a href="https://github.com/markiz-karabas">markiz-karabas</a>
-      </p>
-      <p>Telegram: <a href="t.me/mkarabasss">@mkarabasss</a></p>
+    <div class="cv-page">
+      <aside>
+        <img
+          id="avatar"
+          src="assets/img/FXxlWcSbQew.jpg"
+          alt="my photo"
+          width="320"
+          height="320">
+        <section class="contacts">
+          <h2 id="contact-h">Contact information</h2>
+          <p>Phone: +7(965)888-11-00</p>
+          <p>
+            E-mail:
+            <a href="mailito:mkarabass@gmail.com">mkarabass@gmail.com</a>
+          </p>
+          <p>
+            GitHub:
+            <a href="https://github.com/markiz-karabas">markiz-karabas</a>
+          </p>
+          <p>Telegram: <a href="t.me/mkarabasss">@mkarabasss</a></p>
+        </section>
+        <section class="skills">
+          <h2 id="skills-h">Skills and Proficiency:</h2>
+          <ul>
+            <li>HTML5, CSS3</li>
+            <li>GIT</li>
+            <li>VS-Code</li>
+            <li>Java Script Basic</li>
+          </ul>
+        </section>
+        <section class="language">
+          <h2 id="english-h">Languages</h2>
+          <ul>
+            <li>Russian - native</li>
+            <li>English - A2</li>
+          </ul>
+        </section>
+      </aside>
+      <main>
+        <header>
+          <div class="page-title">
+            <h1>Mrina Vsevolodova</h1>
+            <p>Junior Front-end developer</p>
+          </div>
+          <nav>
+            <ul>
+              <li>
+                <button><a href="#about-h">About me</a></button>
+              </li>
+              <li>
+                <button><a href="#contact-h">Contacts</a></button>
+              </li>
+              <li>
+                <button><a href="#education-h">Education</a></button>
+              </li>
+              <li>
+                <button><a href="#skills-h">Skills</a></button>
+              </li>
+              <li>
+                <button><a href="#code-h">Code</a></button>
+              </li>
+              <li>
+                <button><a href="#english-h">English</a></button>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <section class="about">
+          <h2 id="about-h">About Me</h2>
+          <p>
+            I study at RS School to be a front-end developer. This is the
+            beginning of my journey.
+          </p>
+        </section>
+        <section class="education">
+          <h2 id="education-h">Education</h2>
+          <p>University: Academy of Public Administration</p>
+          <p>Courses:</p>
+          <ul>
+            <li>HTML Academy</li>
+            <li>RS-School</li>
+          </ul>
+        </section>
+        <section class="code-h">
+          <h2 id="code-h">Code Example</h2>
+          <code>
+            function sum(a, b) {return a + b;} let result = sum(1, 2); alert(
+            result );
+          </code>
+        </section>
+      </main>
     </div>
-    <hr>
-    <h4>About Me</h4>
-    <p>
-      I study at RS School to be a front-end developer. This is the beginning of
-      my journey.
-    </p>
-    <h4>Skills and Proficiency:</h4>
-    <ul>
-      <li>HTML5, CSS3</li>
-      <li>GIT</li>
-      <li>VS-Code</li>
-      <li>Java Script Basic</li>
-    </ul>
-    <h4>Code Example</h4>
-    <code
-      >function sum(a, b) {return a + b;} let result = sum(1, 2); alert( result
-      );</code
-    >
-    <h4>Education</h4>
-    <p>University: Academy of Public Administration</p>
-    <p>Courses:</p>
-    <ul>
-      <li>HTML Academy</li>
-      <li>RS-School</li>
-    </ul>
-    <h4>Languages</h4>
-    <ul>
-      <li>Russian - native</li>
-      <li>English - A2</li>
-    </ul>
   </body>
 </html>
