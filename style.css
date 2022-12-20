@@ -155,7 +155,7 @@ pre {
 footer {
   display: flex;
   background-color: rgba(207, 203, 199);
-  height: 65px;
+  height: 75px;
   max-width: 1045px;
   margin: auto;
   position: relative;
@@ -164,11 +164,11 @@ footer {
   width: max-content;
   color: black;
   margin-left: 50px;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 .logo-rs {
   margin-left: 70px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 .footer {
   font-size: 12px;
