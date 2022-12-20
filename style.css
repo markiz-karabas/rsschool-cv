@@ -3,9 +3,9 @@
 }
 body {
   background-color: black;
-  min-height: 100vh;
   margin: 0px;
   padding: 0px;
+  height: 100%
 }
 .cv-page {
   max-width: 1045px;
@@ -13,7 +13,7 @@ body {
   display: flex;
   margin: auto;
   background-color: rgb(97, 93, 88);
-  position: relative;
+  /* position: relative; */
 }
 aside {
   background-color: rgba(235, 94, 40);
@@ -21,14 +21,14 @@ aside {
   width: 35%;
   margin-top: 0px;
   padding: 0px;
+  min-height: 100%;
 }
 main {
   width: 65%;
   color: rgb(220, 215, 207);
-  flex-direction: row;
   padding: 0px;
-  position: absolute;
-  right: 0px;
+  float: right;
+  flex: 1 1 auto;
 }
 header {
   margin: 0px;
@@ -65,14 +65,14 @@ nav > ul {
   display: flex;
   list-style: none;
   margin: 0px;
-  padding-top: 15px;
+  padding: 0px;
   height: 50px;
   background-color: rgb(235, 94, 40);
   text-align: center;
-  position: absolute;
   right: 0px;
 }
 nav > ul > li > span {
+  display: block;
   background-color: rgba(32, 30, 29);
   color: rgb(32, 30, 29);
   border-radius: 5%;
@@ -81,9 +81,12 @@ nav > ul > li > span {
   margin: 3px;
 }
 nav > ul > li > span > a {
+  display: block;
   color: rgb(220, 213, 213);
   font-weight: 400;
   font-size: 18px;
+  padding-top: 10px;
+  margin: 5px;
 }
 nav > ul > li > span:hover {
   background-color: rgb(97, 93, 88);
@@ -95,16 +98,17 @@ nav > ul > li > span:hover {
 }
 section {
   background-color: rgb(32, 30, 29);
+  border-radius: 5%;
   padding: 10px;
   color: rgb(220, 213, 213);
   margin: 5px;
   margin-top: 20px;
   margin-right: 0px;
-  border-radius: 5%;
   font-size: 18px;
 }
 aside > section {
   margin-right: 7px;
+  line-height: 30px;
 }
 aside > section > h2 {
   padding-left: 14px;
@@ -119,12 +123,13 @@ h2:hover {
 .contacts > ul {
   list-style: none;
   padding-left: 0px;
+  line-height: 30px;
 }
 .contacts > ul > li {
   padding-left: 14px;
 }
 a {
-  color: antiquewhite;
+  color: rgb(220, 215, 207);
   text-decoration: none;
 }
 aside > section > ul > li > a:hover {
@@ -133,6 +138,7 @@ aside > section > ul > li > a:hover {
 main > section {
   border-radius: 0%;
   padding-left: 30px;
+  line-height: 30px;
 }
 pre {
   background-color: rgb(207, 203, 199);
@@ -143,12 +149,12 @@ pre {
   padding: 25px;
   padding-bottom: 0px;
 }
-.projects {
-  font-size: 16px;
+.projects>ul>li:nth-child(2) {
+  list-style: none;
 }
 footer {
   display: flex;
-  background-color: rgba(235, 94, 40);
+  background-color: rgba(207, 203, 199);
   height: 65px;
   max-width: 1045px;
   margin: auto;
