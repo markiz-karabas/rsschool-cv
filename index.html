@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSSchool-CV</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="cv-page">
+      <div class="main-wrapper">
+        <aside class="aside">
+          <img class="avatar-img"
+            id="avatar"
+            src="assets/img/FXxlWcSbQew.jpg"
+            alt="my photo"
+          >
+          <section class="contacts section section-aside">
+            <h2 class="section__title" id="contact-h">Contact information</h2>
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <img class="contacts__icon" src="./assets/svg/icon-phone.svg" alt="icon-phone">
+                <a class="contacts__link" href="">+7 (965) 888-11-00</a> 
+              </li>
+              <li class="contacts__item">
+                <img class="contacts__icon" src="./assets/svg/icon-mail.svg" alt="icon-mail">
+                <a class="contacts__link" href="mailito:mkarabass@gmail.com">mkarabass@gmail.com</a>
+              </li>
+              <li class="contacts__item">
+                <img class="contacts__icon" src="./assets/svg/icon-github.svg" alt="icon-git">
+                <a class="contacts__link" href="https://github.com/markiz-karabas">markiz-karabas</a>
+              </li>
+              <li class="contacts__item">
+                <img class="contacts__icon" src="./assets/svg/icon-telegram.svg" alt="icon-telegram">
+                <a class="contacts__link" href="t.me/mkarabasss">@mkarabasss</a>
+              </li>
+              <li class="contacts__item">
+                <img class="contacts__icon" src="./assets/svg/icon-discord.svg" alt="icon-discord">
+                <a class="contacts__link" href="#">mkarkiz-crabas</a>
+              </li>
+            </ul>
+          </section>
+          <section class="skills seciton section-aside">
+            <h2 class="section__title" id="skills-h">Skills and Proficiency:</h2>
+            <ul class="skills__list">
+              <li class="skills__item">HTML5, CSS3, SASS/SCSS</li>
+              <li class="skills__item">Galp, Webpack</li>
+              <li class="skills__item">Java Script Basic</li>
+              <li class="skills__item">GIT</li>
+              <li class="skills__item">VS-Code</li>
+              <li class="skills__item">Figma, Photoshop</li>
+            </ul>
+          </section>
+          <section class="languages seciton section-aside">
+            <h2 class="section__title" id="english-h">Languages</h2>
+            <ul class="languages__list">
+              <li class="languages__item">Russian - native</li>
+              <li class="languages__item">English - A2</li>
+            </ul>
+          </section>
+        </aside>
+        <main>
+          <header class="header">
+            <button class="burger-icon">
+              <span class="burger-icon__line burger-icon__line--1"></span>
+              <span class="burger-icon__line burger-icon__line--2"></span>
+              <span class="burger-icon__line burger-icon__line--3"></span>
+              <span class="burger-icon__line burger-icon__line--4"></span>
+            </button>
+            <nav class="header-menu">
+              <ul class="header-menu__list">
+                <li class="header-menu__item">
+                  <a class="header-menu__link" href="#summary-h">Summary</a>
+                </li>
+                <li class="header-menu__item">
+                  <a class="header-menu__link" href="#contact-h">Contacts</a>
+                </li>
+                <li class="header-menu__item">
+                  <a class="header-menu__link" href="#education-h">Education</a>
+                </li>
+                <li class="header-menu__item">
+                  <a class="header-menu__link" href="#skills-h">Skills</a>
+                </li>
+                <li class="header-menu__item">
+                  <a class="header-menu__link" href="#code-h">Code</a>
+                </li>
+                <li class="header-menu__item">
+                  <a class="header-menu__link" href="#projects-h">Prodjects</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="title-box">
+              <h1 class="header__title">Trainee <br> Front-end developer</h1>
+              <p class="header__subtitle">Marina Vsevolodova</p>
+            </div>
+          </header>
+          <section class="summary section">
+            <h2 class="section__title" id="summary-h">Summary</h2>
+            <p class="section__text">
+              Hello. My name is Marina. Now, I 'm a student RS School, and my goal's to become a professional frontend developer. This is the beginning of my path. As it turned out, the IT world is incredibly interesting, and it provides great opportunities for self-realization and endless professional growth. At the moment, I already can create simple landing pages, make adaptive cross-browser layout, work with the SASS preprocessor and know the basics of JS. At the near future I want to work out my knowledge and skills in training projects and actively practice JS. I'm also a big of a perfectionist, and I'm extremely pleased to look at clean code.
+            </p>
+          </section>
+          <section class="education section">
+            <h2 class="section__title" id="education-h">Education</h2>
+            <p class="section__text">University: <br> The Russian Presidential Academy of National Economy and Public Administration</p>
+            <p class="section__text">Courses:</p>
+            <ul class="education__courses-list">
+              <li class="education__courses-item">RS-School (Satage-0)</li>
+              <li class="education__courses-item">PASV (Git, HTML, Javascript Syntax)</li>
+              <li class="education__courses-item">CodeBasic</li>
+            </ul>
+          </section>
+          <section class="code section">
+            <h2 class="section__title" id="code-h">Code Example</h2>
+            <pre class="code__pre">
+    function sum(a, b) {
+      return a + b;
+    }
+    let result = sum(1, 2);
+    alert(result);
+            </pre>
+          </section>
+          <section class="projects section">
+            <h2 class="section__title" id="projects-h">My projects:</h2>
+            <ul class="section__text">
+              <li class="projects__item">RSSchool-CV</li>
+              <li><a href="https://markiz-karabas.github.io/rsschool-cv/" target="_blank"><img class="projects-img" src="./assets/img/projects-cv-min.jpg" width="333" height="187" alt="cv-project"></a></li> 
+              <li class="projects__item">in progress...</li>
+            </ul>
+          </section>
+        </main>
+      </div>
+      <footer class="footer">
+        <div class="footer-wrapper">
+          <div class="logo-git">
+            <a href="https://github.com/markiz-karabas" target="_blank">
+              <img
+                class="logo-git__img"
+                src="./assets/svg/github.svg"
+                alt="logo-github"
+                width="50"
+              >
+            </a>
+          </div>
+          <div class="logo-rss">
+            <a href="https://rs.school/" target="_blank">
+              <img
+                class="logo-rss__img"
+                src="./assets/svg/rs_school_js.svg"
+                alt="logo-rs"
+                width="100"
+              >
+            </a>
+          </div>
+          <div class="year">
+            <p>2023</p>
+          </div>
+      </div>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
