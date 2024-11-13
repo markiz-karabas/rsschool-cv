@@ -26,6 +26,7 @@ I study at RS School to be a front-end developer. This is the beginning of my jo
       index > 0 ? new Array(index + 1).fill(value) : value  
       );  
     }  
+
 ***  
 
 #### Education  
