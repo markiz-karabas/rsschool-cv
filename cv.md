@@ -20,14 +20,12 @@ I study at RS School to be a front-end developer. This is the beginning of my jo
 * Java Script Basic  
 
 ***  
-#### Code Example
-    function sum(a, b) {
-    return a + b;
+#### Code Example  
+    function propagateItemsByPositionIndex(arr) {  
+      return arr.flatMap((value, index) =>  
+      index > 0 ? new Array(index + 1).fill(value) : value  
+      );  
     }
-
-    let result = sum(1, 2);
-    alert( result );
- 
 ***  
 #### Education  
 University:  
