@@ -25,8 +25,9 @@ I study at RS School to be a front-end developer. This is the beginning of my jo
       return arr.flatMap((value, index) =>  
       index > 0 ? new Array(index + 1).fill(value) : value  
       );  
-    }
+    }  
 ***  
+
 #### Education  
 University:  
 2005 Russian Academy of National Economy and Public Administration under the President of the Russian Federation  
