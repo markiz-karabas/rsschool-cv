@@ -114,11 +114,12 @@
           <section class="code section">
             <h2 class="section__title" id="code-h">Code Example</h2>
             <pre class="code__pre">
-    function sum(a, b) {
-      return a + b;
-    }
-    let result = sum(1, 2);
-    alert(result);
+    function propagateItemsByPositionIndex(arr) {  
+        return arr.flatMap((value, index) =>  
+        index > 0 ? new Array(index + 1).fill(value) 
+        : value  
+        );  
+    } 
             </pre>
           </section>
           <section class="projects section">
